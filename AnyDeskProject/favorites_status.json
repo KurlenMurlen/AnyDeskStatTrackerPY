@@ -1,0 +1,17 @@
+{
+  "favorites_count": 1,
+  "computers": [
+    {
+      "name": "MacBook",
+      "connection_id": "1417826281",
+      "status": "online",
+      "position": {
+        "x": 30,
+        "y": 740,
+        "width": 235,
+        "height": 180
+      },
+      "raw_text": "MacBook 1-417 826 281"
+    }
+  ]
+}
