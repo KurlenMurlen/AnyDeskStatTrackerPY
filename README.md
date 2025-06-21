@@ -14,16 +14,16 @@ Este projeto em Python permite analisar a seção de favoritos do AnyDesk e dete
 
 ## 📂 Estrutura do Projeto
 
-'''
+```
 ├── status.py # Script principal
 ├── show_all.png # Imagem do botão "Show All" (para clique automático)
 ├── pure_black.png # Imagem preta para limpar as thumbnails
 ├── favorites_status.json # Arquivo de saída com os resultados
 ├── README.md # Este arquivo
-'''
+
 
 ---
-
+```
 ## 🚀 Como Funciona
 
 1. **Limpa as imagens de miniaturas** (thumbnails) substituindo por fundo preto.
@@ -45,22 +45,22 @@ Este projeto em Python permite analisar a seção de favoritos do AnyDesk e dete
   pip install pytesseract pygetwindow pyautogui opencv-python pillow psutil
 ** Configurações**
 Certifique-se de ajustar no status.py os seguintes caminhos:
-'''
+```
 ANYDESK_PATH = r"T:\\AnyDesk\\AnyDesk.exe"
 USER_CONF_PATH = r"C:\\Users\\seu_usuario\\AppData\\Roaming\\AnyDesk\\user.conf"
 THUMBNAILS_FOLDER = r"C:\\Users\\seu_usuario\\AppData\\Roaming\\AnyDesk\\thumbnails"
 SYSTEM_CONF_PATH = r"C:\\Users\\seu_usuario\\AppData\\Roaming\\AnyDesk\\system.conf"
 TRACE_LOG_PATH = r"C:\\Users\\seu_usuario\\AppData\\Roaming\\AnyDesk\\ad.trace"
-'''
+```
 Como Usar
 Abra o AnyDesk manualmente pelo script ou deixe fechado.
 
 Coloque o script status.py, pure_black.png e show_all.png na mesma pasta.
 
 Execute o script como administrador:
-'''
+```
 python status.py
-'''
+```
 Verifique o resultado no arquivo favorites_status.json.
 Exemplo do json:
 ```
