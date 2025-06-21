@@ -69,7 +69,7 @@ Exemplo do json:
   "computers": [
     {
       "name": "MacBook",
-      "connection_id": "1417826281",
+      "connection_id": "1417833481",
       "status": "online",
       "position": {
         "x": 100,
